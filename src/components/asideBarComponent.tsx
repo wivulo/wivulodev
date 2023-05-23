@@ -19,11 +19,13 @@ const ListItem = ({ text }: any) => {
     )
 }
 
-const HeaderComponent = () => {
+const AsidebarComponent = () => {
 
     return (
-        <header className="fixed flex items-center bg-white justify-between h-24 pt-6 pr-10 pb-6 pl-12 text-lg font-semibold shadow-b shadow-black/30 shadow-md z-40 w-full">
-            <h3>wivulo.dev</h3>
+        <aside className="fixed flex justify-center bg-white h-scream pt-6 pr-10 text-lg font-semibold shadow-l shadow-black/30 shadow-md z-50">
+            <button type="button" className="flex justify-center items-center lg:hidden">
+                <FaBars className="w-8 h-8 text-zinc-500" />
+            </button>
 
             <nav className="flex gap-x-4">
                 <ul className="hidden lg:flex gap-x-4 text-zinc-500">
@@ -32,13 +34,9 @@ const HeaderComponent = () => {
                     <ListItem text="Projects" />
                     <ListItem text="Contact" />
                 </ul>
-
-                <button type="button" className="flex justify-center items-center lg:hidden">
-                    <FaBars className="w-8 h-8 text-zinc-500" />
-                </button>
             </nav>
-        </header>
+        </aside>
     )
 }
 
-export default HeaderComponent;
+export default AsidebarComponent;
