@@ -19,7 +19,7 @@ const ListItem = ({ text }: any) => {
     )
 }
 
-const HeaderComponent = () => {
+const HeaderComponent = ({onOpenMenu}: any) => {
 
     return (
         <header className="fixed flex items-center bg-white justify-between h-24 pt-6 pr-10 pb-6 pl-12 text-lg font-semibold shadow-b shadow-black/30 shadow-md z-40 w-full">
@@ -33,7 +33,8 @@ const HeaderComponent = () => {
                     <ListItem text="Contact" />
                 </ul>
 
-                <button type="button" className="flex justify-center items-center lg:hidden">
+                <button type="button" className="flex justify-center items-center lg:hidden"
+                    onClick={onOpenMenu}>
                     <FaBars className="w-8 h-8 text-zinc-500" />
                 </button>
             </nav>
