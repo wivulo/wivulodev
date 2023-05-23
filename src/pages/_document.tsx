@@ -13,7 +13,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
       </body>
     </Html>
   )
