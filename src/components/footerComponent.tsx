@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const FooterComponent = () => {
     return (
         <section className="flex relative h-40 w-full bg-zinc-800 z-20">
-            <div className="flex items-center justify-between w-full h-full px-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between w-full h-full px-20 gap-y-5">
                 <h4 className="text-white font-semibold">Copyright © 2023. All rights are reserved</h4>
 
                 <div className="flex gap-x-4">

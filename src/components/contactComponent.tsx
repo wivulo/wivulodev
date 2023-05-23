@@ -5,11 +5,11 @@ import { IoIosMailOpen} from "react-icons/io"
 const ContactComponent = () => {
     return (
         <section id="Contact" className="flex relative h-96 w-full bg-white z-20 justify-center items-center">
-            <div className="flex flex-col w-[80%] h-auto px-20 gap-y-5">
-                <h5 className="text-2xl font-semibold text-sky-700 ">Contacto</h5>
+            <div className="flex flex-col w-full lg:w-[80%] h-auto px-12 gap-y-5">
+                <h5 className="text-2xl font-semibold text-sky-700 ">CONTACTO</h5>
                 <p className="text-2xl font-bold text-zinc-700">Não tenha vergonha, me da um toque!</p>
 
-                <div className="flex gap-x-2 justify-between p-10">
+                <div className="flex gap-x-2 justify-between lg:p-10 py-10 px-6">
                     <div className="flex gap-x-5">
                         <FaMapMarkedAlt  className="text-sky-700 h-8 w-8"/>
                         <div className="flex flex-col">
