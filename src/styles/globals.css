@@ -11,3 +11,16 @@ body {
 body {
   font-family: Poppins, sans-serif;
 }
+
+.rotate{
+  animation: animeRotate 7s linear .2s forwards infinite;
+}
+
+@keyframes animeRotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
