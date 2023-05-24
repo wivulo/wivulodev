@@ -5,13 +5,14 @@ const ListItem = ({ text, onCloseMenu }: any) => {
     const scrollToRef = (href: any) => {
 
         document.querySelector(href).scrollIntoView({
+            top: 0,
             behavior: 'smooth'
         });
     };
 
     return (
         <li>
-            <Link href={`#${text}`} onClick={() => {scrollToRef(`#${text}`); onCloseMenu()}}
+            <Link href={`/#${text}`} scroll={false} onClick={() => {scrollToRef(`#${text}`); onCloseMenu()}}
                 className="hover:text-sky-700">
                 {text}
             </Link>

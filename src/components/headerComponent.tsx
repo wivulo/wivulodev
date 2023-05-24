@@ -6,13 +6,14 @@ const ListItem = ({ text }: any) => {
     const scrollToRef = (href: any) => {
 
         document.querySelector(href).scrollIntoView({
+            top: 0,
             behavior: 'smooth'
         });
     };
 
     return (
-        <li>
-            <Link href={`#${text}`} onClick={() => scrollToRef(`#${text}`)}>
+        <li className="hover:text-sky-700">
+            <Link href={`/#${text}`} scroll={false} onClick={() => scrollToRef(`#${text}`)}>
                 {text}
             </Link>
         </li>
