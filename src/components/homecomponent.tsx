@@ -32,7 +32,7 @@ const HomeComponent = () => {
 
                         <div className="flex pt-8 justify-center lg:w-1/2 lg:justify-center">
                             <div className="relative flex justify-center items-center">
-                                <div className="animate-ping absolute inline-flex rounded-full bg-zinc-500 opacity-75 w-60 h-60"></div>
+                                <div className="hidden absolute rounded-full bg-zinc-500 opacity-75 w-60 h-60"></div>
                                 <Image src="/profile.jpg" alt="profile pic" width={300} height={300} className="w-96 h-96 rounded-full border-2 border-zinc-500 animate-bubble" />
                             </div>
                         </div>

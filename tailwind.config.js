@@ -7,11 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      animation: {
+        bubble: 'bubble 5s linear .1s forwards infinite'
       },
+
+      keyframes: {
+        bubble: {
+          '0%': { borderRadius: '80% 50% 60% 50%'},
+          '25%': {borderRadius: '50% 80% 50% 60%'},
+          '50%': {borderRadius: '60% 50% 80% 50%'},
+          '75%': {borderRadius: '50% 60% 50% 80%'},
+          '100%': {borderRadius: '80% 50% 60% 50%'}
+        }
+      }
     },
   },
   plugins: [],
