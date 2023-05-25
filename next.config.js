@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['./src/assets/Images']
+    domains: ['wivulodev\src\assets\images']
   }
   
 }
