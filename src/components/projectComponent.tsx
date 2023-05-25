@@ -14,7 +14,7 @@ const ProjectList = ({ src, titulo, description, tec }: IProjectListItem) => (
         <div className="bg-white w-full h-full p-2 rounded-sm overflow-hidden">
             <div className="w-full">
                 <figure className="w-full h-auto max-h-screen relative flex flex-col items-center">
-                    <Image src={src} alt="Project list item" width={900} height={700}
+                    <Image src={src} alt="Project list item" width={500} height={300}
                         className="w-full h-full"></Image>
                     <figcaption
                         className="w-3/4 text-white text-base font-semibold flex flex-col gap-y-5">
