@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaLinkedin, FaMapMarked, FaMapMarkedAlt,  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMapMarked, FaMapMarkedAlt, FaPhone,  } from "react-icons/fa";
 import { IoIosMailOpen} from "react-icons/io"
 
 const ContactComponent = () => {
@@ -23,6 +23,14 @@ const ContactComponent = () => {
                         <div className="flex flex-col">
                             <p className="text-zinc-800">Email</p>
                             <p className="text-zinc-600">walterivulo@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div className="flex gap-x-5">
+                        <FaPhone className="text-sky-700 w-8 h-8"/>
+                        <div className="flex flex-col">
+                            <p className="text-zinc-800">Telefone</p>
+                            <p className="text-zinc-600">+244 922232675</p>
                         </div>
                     </div>
                 </div>
