@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaGithub, FaPuzzlePiece } from "react-icons/fa";
-import ImageProject1 from "/cengproject.png";
+// import ImageProject1 from "../public/cengproject.png";
 
 interface IProjectListItem {
     src: any;
@@ -56,7 +56,7 @@ const ProjectComponent = () => {
                 <div className="flex relative h-3/4">
                     <ul className="flex flex-col lg:flex-row lg:flex-wrap p-10 gap-5">
                         <ProjectList 
-                        src={ImageProject1} 
+                        src="/cengproject.png" 
                         titulo="Engineering Conference" 
                         description="Conferencia de Engenharia é uma plataforma de divulgação de eventos de engenharia, 
                         onde os usuários podem se cadastrar e divulgar seus eventos."
