@@ -9,9 +9,9 @@ const AboutMeComponent = () => {
                     <Image src="/about-img.62b47e7f183d4b4e9feb.webp" width={500} height={500} alt="about me"
                         className="rounded-md w-80 h-72 lg:w-96 lg:h-96"></Image>
 
-                    <div className="grid place-content-center absolute w-44 h-44 rounded-full bg-white z-10 -right-20 -bottom-16 lg:right-10 shadow shadow-black">
-                        <div className="flex justify-center items-center h-44 w-44 rounded-full border-2 border-black relative">
-                            <svg viewBox="0 0 500 500" className="rotate">
+                    <div className="grid place-content-center absolute w-auto h-auto rounded-full bg-white z-10 -right-14 -bottom-10 md:-right-20 md:-bottom-16 lg:right-10 shadow shadow-black">
+                        <div className="flex justify-center items-center rounded-full border-2 border-black relative">
+                            <svg viewBox="0 0 500 500" className="rotate w-32 h-32 md:h-44 md:w-44">
                                 <path id="curve" fill="white" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
                                 <text width="500" fontSize={32}>
                                     <textPath xlinkHref="#curve">
@@ -31,10 +31,12 @@ const AboutMeComponent = () => {
                     </p>
                     <p className="font-medium text-base text-zinc-500 text-justify">
                         Como Desenvolvedor Front-End Júnior, possuo um impressionante arsenal de habilidades
-                        em HTML, CSS, JavaScript, React, Tailwind. Eu me destaco em projetar e manter
+                        em HTML, CSS, JavaScript, React, Next, Tailwind. Eu me destaco em construir e manter
                         sites responsivos que oferecem uma experiência de usuário suave. Minha experiência
                         está na criação de interfaces dinâmicas e envolventes através da escrita de código
                         limpo e otimizado e utilizando ferramentas e técnicas de desenvolvimento de ponta.
+                        Além de ser um desenvolvedor Front-End, 
+                        também sou iniciante como desenvolvedor Back-End.
                     </p>
                 </div>
             </div>

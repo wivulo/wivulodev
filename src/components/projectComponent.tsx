@@ -48,7 +48,7 @@ const ProjectComponent = () => {
             <div className="flex flex-col w-full lg:w-[80%] h-full">
                 <div className="h-1/4 pl-12 pt-12 flex flex-col gap-y-2">
                     <p className="text-2xl font-semibold  text-sky-700 ">PORTFOLIO</p>
-                    <p className=" text-2xl font-semibold text-zinc-700">
+                    <p className="md:text-2xl text-lg font-semibold text-zinc-700">
                         Cada projeto é uma peça única de desenvolvimento
                         <FaPuzzlePiece className="inline text-yellow-500 mx-2" />
                     </p>
