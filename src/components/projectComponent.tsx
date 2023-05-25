@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaGithub, FaPuzzlePiece } from "react-icons/fa";
-import ImageProject1 from "../assets/Images/cengproject.png";
+import ImageProject1 from "/cengproject.png";
 
 interface IProjectListItem {
     src: any;
