@@ -56,7 +56,7 @@ const ProjectComponent = () => {
                 <div className="flex relative h-3/4">
                     <ul className="flex flex-col lg:flex-row lg:flex-wrap p-10 gap-5">
                         <ProjectList 
-                        src="/cengproject.png" 
+                        src="/cengproject.jpg" 
                         titulo="Engineering Conference" 
                         description="Conferencia de Engenharia é uma plataforma de divulgação de eventos de engenharia, 
                         onde os usuários podem se cadastrar e divulgar seus eventos."
