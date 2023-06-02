@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <HeaderComponent onOpenMenu={handleOpenMenu} />
       <AsidebarComponent open={openMenu} onCloseMenu={handleCloseMenu} />
-      <main>
+      <main className='overflow-x-hidden'>
         <HomeComponent />
         <AboutMeComponent />
         <ProjectComponent />
