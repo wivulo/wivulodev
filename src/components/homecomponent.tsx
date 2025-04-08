@@ -14,10 +14,10 @@ const HomeComponent = () => {
                 <div className="flex flex-col relative justify-center">
                     <div className="flex flex-col lg:flex-row lg:justify-center gap-10 lg:gap-2">
                         <div className="flex justify-center lg:w-1/2 items-center relative flex-col gap-y-7 md:pl-6 pt-14">
-                            <h1 className="text-5xl font-bold text-zinc-700">Front-End React Developer</h1>
+                            <h1 className="text-5xl font-bold text-zinc-700">Desenvolvedor FullStack</h1>
                             <p className="text-base text-zinc-500/80 font-medium">
-                                Olá, Eu sou o Valtércio Ivulo. Um desenvolvedor Front-end React dedicado.
-                                Com sede em Benguela, Angola 📍
+                                Olá, Eu sou o Valtércio Ivulo. Um desenvolvedor FullStack dedicado.
+                                Com sede em Angola 📍
                             </p>
 
                             <div className="flex gap-x-4 left-6 bottom-10 self-start">
@@ -31,21 +31,25 @@ const HomeComponent = () => {
                         </div>
 
                         <div className="flex pt-8 justify-center lg:w-1/2 overflow-hidden">
-                            <Image src="/profile.jpg" alt="profile pic" width={300} height={300} className="w-[90%] h-[90%] md:w-96 md:h-96 rounded-full border-2 border-zinc-500 animate-bubble" />
+                            <Image src="/profile2.jfif" alt="profile pic" width={300} height={300} className="w-[90%] h-[90%] md:w-96 md:h-96 rounded-full border-2 border-zinc-500 animate-bubble" />
                         </div>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row lg:gap-x-5 gap-y-5 lg:pl-8 mt-20 items-center mb-4">
+                    <div className="flex flex-col lg:flex-row lg:gap-x-5 gap-y-5 lg:pl-8 mt-20 lg:mt-8 items-center mb-4">
                         <p className="text-base lg:text-lg transition-all font-semibold text-zinc-700">Tech Stack</p>
                         <div className="flex flex-wrap gap-x-8 gap-y-3 lg:gap-x-10 border-l-2 border-zinc-500 pl-2">
                             <TechStackContent src="/html.6e7b1b463015c056aeb9a624c8dc2876.svg" alt="html" />
                             <TechStackContent src="\css3.9cecabbf6ce67609c48bc4f280a11002.svg" alt="css" />
                             <TechStackContent src="\javascript.de4c2594613e34b15666206bbede7327.svg" alt="js" />
+                            <TechStackContent src="/Vue.js_Logo_2.svg" alt="vue" />
                             <TechStackContent src="\react.afac9c43724070bf6674f2692b7356a9.svg" alt="react" />
                             <TechStackContent src="\tailwind.79614a5f61617ba49a0891494521226b.svg" alt="tailwind" />
                             <TechStackContent src="\next-js-svgrepo-com.svg" alt="nextjs" />
+                            <TechStackContent src="/node-js-logo.png" alt="nodejs" />
                             <TechStackContent src="\Typescript_logo_2020.svg" alt="typescript" />
+                            <TechStackContent src="/NestJS.svg" alt="Nestjs" />
                             <TechStackContent src="/mysql.png" alt="database mysql" />
+                            <TechStackContent src="/postgres.png" alt="database postgres" />
                         </div>
 
                     </div>

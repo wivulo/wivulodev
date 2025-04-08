@@ -15,7 +15,7 @@ const AboutMeComponent = () => {
                                 <path id="curve" fill="white" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
                                 <text width="500" fontSize={32}>
                                     <textPath xlinkHref="#curve">
-                                        Desenvolvedor front-end
+                                        Desenvolvedor fullstack
                                     </textPath>
                                 </text>
                             </svg>
@@ -26,17 +26,16 @@ const AboutMeComponent = () => {
                 <div className="flex flex-col justify-center lg:justify-start lg:pr-20 gap-y-8 lg:w-1/2">
                     <h2 className="text-2xl text-sky-600 font-semibold">SOBRE MIM</h2>
                     <p className="font-medium text-zinc-700">
-                        Um desenvolvedor Front-end dedicado
-                        com sede em Benguela, Angola
+                        Um desenvolvedor FullStack dedicado
+                        com sede em Angola
                     </p>
                     <p className="font-medium text-base text-zinc-500 text-justify">
-                        Como Desenvolvedor Front-End Júnior, possuo um impressionante arsenal de habilidades
-                        em HTML, CSS, JavaScript, React, Next, Tailwind. Eu me destaco em construir e manter
+                        Como Desenvolvedor FullStack Pleno, possuo um impressionante arsenal de habilidades
+                        em HTML, CSS, JavaScript, Vue, React, Next, Tailwind, Nodejs, Typescript, Nestjs. 
+                        Me destaco em construir e manter
                         sites responsivos que oferecem uma experiência de usuário suave. Minha experiência
                         está na criação de interfaces dinâmicas e envolventes através da escrita de código
                         limpo e otimizado e utilizando ferramentas e técnicas de desenvolvimento de ponta.
-                        Além de ser um desenvolvedor Front-End, 
-                        também sou iniciante como desenvolvedor Back-End.
                     </p>
                 </div>
             </div>
