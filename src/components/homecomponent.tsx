@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa"
+import profile from '/public/profile3.jpg'
 
 const TechStackContent = (prop: any) => (
     <div className="grid place-content-center p-2 rounded-full h-11 bg-white shadow-sm shadow-black/30 ">
@@ -31,7 +32,7 @@ const HomeComponent = () => {
                         </div>
 
                         <div className="flex pt-8 justify-center lg:w-1/2 overflow-hidden">
-                            <Image src="/profile2.jfif" alt="profile pic" width={300} height={300} className="w-[90%] h-[90%] md:w-96 md:h-96 rounded-full border-2 border-zinc-500 animate-bubble" />
+                            <Image src={profile} alt="profile pic" width={300} height={300} className="w-[90%] h-[90%] md:w-96 md:h-96 rounded-full border-2 border-zinc-500 animate-bubble" />
                         </div>
                     </div>
 
