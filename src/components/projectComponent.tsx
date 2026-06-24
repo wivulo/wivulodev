@@ -37,15 +37,6 @@ const ProjectComponent = () => {
             />
 
             <ProjectListItem
-              src="/No_image_available.svg"
-              titulo="BayQi - Compra e Venda seus produtos aqui"
-              description="BayQi é um sistema de gestão de vendas, onde os vendedores podem se cadastrar e divulgar seus produtos."
-              tec={["VueJs", "Bootstrap", ".Net Core"]}
-              imageClasses="!w-[200px] !h-[150px]"
-              viewDemo="https://seller.bayqi.ao/login"
-            />
-
-            <ProjectListItem
               src="/nishop.png"
               titulo="Nishop Store- E-commerce"
               description="Nishop Store é um sistema de gestão de vendas de uma loja de roupas especifica, onde os vendedores podem se cadastrar e divulgar seus produtos."
